@@ -1,0 +1,53 @@
+body{
+    background-image: url('../images/clouds.jpg');
+}
+
+#index{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:30vh;
+}
+#about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:30vh;
+}
+
+a{
+    text-decoration:none;
+    color:aliceblue;
+}
+button{
+    height:2rem;
+    background-color:cadetblue;
+    border:none;
+    color:aliceblue;
+    margin:1rem;
+}
+
+h1{
+    margin:0.5rem;
+}
+
+a:active{
+    color:blue;
+}
+
+input{
+    width:50%;
+    height:2rem;
+    background-color:rgb(188, 188, 231);
+    border-style:none;
+    border-radius: 1rem;
+    text-indent: 1em;
+}
+
+#temp{
+    cursor:pointer;
+}
+
+#temp:active{
+    color:blue;
+}
